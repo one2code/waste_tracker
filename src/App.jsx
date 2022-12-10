@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Waste from "./pages/Waste";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/About" element={<About />} />
+          <Route path="/Waste" element={<Waste />} />
           <Route path="*" element={<NotFound/>} />
 				</Routes>
 			</BrowserRouter>

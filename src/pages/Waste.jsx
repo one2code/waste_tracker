@@ -12,6 +12,7 @@ function Waste() {
 					<option value="3">Shipping</option>
 				</Form.Select>
 			</Container>
+         
 		</>
 	);
 }

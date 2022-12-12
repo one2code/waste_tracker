@@ -1,0 +1,10 @@
+.navbar-custom {
+  font-family: helvetica, arial, sans-serif !important;
+  font-size: 1.3rem !important;
+  color: #004b87 !important;
+  
+}
+
+a:hover {
+  color: #DCAA80 !important;
+}
